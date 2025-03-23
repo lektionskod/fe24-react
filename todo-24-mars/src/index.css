@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 1rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  width: 50%;
+}
+
+li {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+  list-style-type: none;
+}
